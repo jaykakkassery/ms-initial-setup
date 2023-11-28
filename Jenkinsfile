@@ -4,7 +4,7 @@ node {
             branches: [[name: '*/main']],
             extensions: [],
             userRemoteConfigs: [[credentialsId: 'git',
-            url: 'https://github.com/shabbirdwd53/ms-initial-setup.git']]])
+            url: 'https://github.com/jaykakkassery/ms-initial-setup.git']]])
     }
     stage('Deploy') {
         step([$class: 'KubernetesEngineBuilder',
